@@ -1,0 +1,12 @@
+{
+  "name": "port_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd ./server && npm run server\" \"cd ./client && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC"
+}
